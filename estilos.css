@@ -1,0 +1,685 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* variables */
+.section__h2, .elegidos .section__h2 {
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.5em;
+  color: black;
+  text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  /* cambiar de color los items del menu */
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #0a860a;
+}
+
+.text-center {
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.5em;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  /* para darle estilo por ahora al "logo" */
+}
+
+.nav-link:hover {
+  color: white;
+  /* para evitar el efecto hover en links bootstrap default */
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+/* para centrar los items en menú hamburguesa */
+.header {
+  background-color: #ff8800;
+}
+
+.navbar-brand {
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  color: white;
+}
+
+.jumbotron {
+  background-image: url(imagenes/toasts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__h1 {
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 5em;
+  color: white;
+}
+
+/* sección nuestros valores */
+.valores {
+  width: 80%;
+  margin: auto;
+  padding: 5em 0;
+}
+.valores .section__h2 {
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.5em;
+  color: black;
+  text-align: center;
+}
+.valores .container_valores {
+  margin-top: 3em;
+}
+
+.div__valor {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.valor1 {
+  text-align: center;
+  margin: auto;
+}
+
+.valor2 {
+  text-align: center;
+  margin: auto;
+}
+
+.valor3 {
+  text-align: center;
+  margin: auto;
+}
+
+.fa-seedling {
+  font-size: 40px;
+  margin: 20px 20px;
+  color: #ff8800;
+}
+
+/* estilo a elegidos */
+.elegidos {
+  width: 80%;
+  margin: auto;
+  padding: 5em 0;
+}
+.elegidos .section__parrafo {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.container {
+  margin-right: 5em;
+}
+
+.item_plato {
+  border-radius: 8px;
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 80%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #0a860a;
+  border-radius: 8px;
+}
+
+.container__platos {
+  position: relative;
+}
+
+.container__platos:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 30%;
+}
+
+/* estilo al boton de menu completo */
+/* sección newsletter */
+.container_suscribite {
+  padding-top: 5%;
+  background-image: url(imagenes/food.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container_suscribite .div__revolucion {
+  color: white;
+  text-align: center;
+}
+.container_suscribite .suscribite {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 30vh;
+  padding-top: 2em;
+}
+.container_suscribite .suscribite .parrafo__suscribite {
+  color: white;
+  font-size: 1.25em;
+}
+
+.formField {
+  padding-left: 2%;
+}
+
+.email_field {
+  border-radius: 0.75em;
+  font-size: 1em;
+  padding: 0.313 1em;
+}
+
+.btn_send {
+  border-radius: 12px;
+  color: black;
+  border: solid 2px #0a860a;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px 13px;
+}
+
+.btn_send:hover {
+  color: white;
+  background-color: #0a860a;
+  border: #ff8800;
+  padding: 5px 15px;
+}
+
+/* btn wsapp */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #ffffff;
+}
+
+.my_float {
+  margin-top: 16px;
+}
+
+/* footer */
+footer {
+  background-color: #0a860a;
+  height: 30vh;
+}
+footer .nav-link {
+  color: white;
+}
+footer .nav-link:hover {
+  color: #ff8800;
+}
+footer .nav {
+  margin-bottom: 1em;
+}
+footer .footer__datos {
+  text-align: center;
+  margin: 0 1.5em;
+  color: white;
+}
+footer .footer__redes {
+  display: flex;
+  justify-content: center;
+}
+footer .footer__logored a {
+  font-size: 30px;
+  padding: 1em;
+  color: white;
+}
+footer .footer__logored a:hover {
+  color: #ff8800;
+}
+
+/* contacto page */
+.section_contacto__h2 {
+  text-align: left;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.formulario {
+  width: 45%;
+  border-radius: 4px;
+  background-color: rgba(255, 136, 0, 0.3);
+  margin-bottom: 2em;
+  margin-left: 5em;
+  padding: 1em 2em;
+}
+
+.field {
+  border-radius: 0.2em;
+  margin-bottom: 16px;
+  border: 2px solid #0a860a;
+}
+
+.btn_contacto {
+  color: black;
+  border: solid 2px #0a860a;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  padding: 5px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.btn_contacto:hover {
+  background-color: #0a860a;
+  color: white;
+}
+
+/* blog page */
+.articulos__blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  -moz-column-gap: 10%;
+       column-gap: 10%;
+  row-gap: 50px;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  justify-content: center;
+  margin-top: 6%;
+}
+.articulos__blog .blog_card {
+  box-shadow: 0 4px 8px 0 rgba(255, 136, 0, 0.2);
+  transition: 0.3s;
+}
+.articulos__blog .blog_card .container_blog {
+  padding: 2px 16px;
+}
+.articulos__blog .blog_card .container_blog .titulo_blog {
+  text-align: center;
+  margin-top: 2%;
+}
+.articulos__blog .blog_card .container_blog .container_blog--link {
+  text-decoration: none;
+  color: #0a860a;
+}
+.articulos__blog .blog_card .img_blog {
+  border-radius: 5%;
+  display: block;
+  margin: auto;
+}
+.articulos__blog .blog_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pagination .page-item .page-link {
+  color: #ff8800;
+  border: #ff8800;
+}
+
+/* menu page */
+.sectionMenu {
+  padding-top: 5%;
+}
+.sectionMenu .sectionMenu__parrafo {
+  text-align: center;
+}
+
+.container__menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  row-gap: 50px;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 5%;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.nombre_plato {
+  text-align: center;
+}
+
+/* nosotros */
+.resto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  row-gap: 15px;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 2em;
+       column-gap: 2em;
+  margin-left: 5em;
+}
+
+.descripcionResto {
+  padding-top: 15em;
+}
+
+.imagenResto {
+  height: 30em;
+  padding-top: 10em;
+}
+
+.descripcionChef {
+  padding-right: 5em;
+  padding-top: 15em;
+}
+
+.imagenChef {
+  height: 30em;
+  padding-top: 10em;
+  padding-left: 5em;
+  padding-bottom: 5em;
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1380px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 960px) {
+  .main__h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .text-center {
+    display: none;
+  }
+
+  .navbar-brand {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .nav-link {
+    display: inline-block;
+  }
+
+  .footer__datos {
+    display: inline-block;
+  }
+
+  .jumbotron {
+    background-image: url(imagenes/toasts.png);
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    width: auto;
+  }
+
+  footer {
+    background-color: #0a860a;
+    height: 60vh;
+  }
+
+  .suscribite {
+    display: block;
+    width: 100%;
+    height: 30vh;
+    padding-top: 2em;
+  }
+
+  .parrafo__suscribite {
+    color: white;
+    font-size: 1.25em;
+    text-align: center;
+  }
+
+  .formField {
+    padding-left: 2%;
+    text-align: center;
+  }
+
+  .fa-seedling {
+    font-size: 30px;
+    margin: 20px 20px;
+    color: #ff8800;
+  }
+
+  h3 {
+    /* chequear */
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .item_plato {
+    border-radius: 8px;
+    display: block;
+    width: 50%;
+    height: auto;
+    text-align: center;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 50%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #0a860a;
+    border-radius: 8px;
+  }
+
+  .container__platos {
+    position: relative;
+  }
+
+  .container__platos:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 30%;
+  }
+
+  /* contacto */
+  .section_contacto__h2 {
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+
+  .formulario {
+    width: 100%;
+    border-radius: 4px;
+    margin: auto;
+    padding: 1em 2em;
+  }
+
+  .field {
+    display: block;
+    width: auto;
+    border-radius: 0.2em;
+    margin-bottom: 16px;
+    border: 2px solid #0a860a;
+    width: 100%;
+  }
+
+  .text_field {
+    width: 30%;
+    height: 30%;
+  }
+
+  .btn_contacto {
+    color: black;
+    border: solid 2px #0a860a;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    padding: 5px;
+    background-color: white;
+  }
+
+  .btn_contacto:hover {
+    background-color: #0a860a;
+    color: white;
+  }
+
+  /* menu */
+  .container__menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    row-gap: 50px;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 5%;
+    justify-content: center;
+  }
+
+  .sectionMenu {
+    padding-top: 5%;
+  }
+
+  .sectionMenu__parrafo {
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  .img_menu {
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+
+  /* nosotros */
+  .resto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 2em;
+         column-gap: 2em;
+    margin-left: 5em;
+  }
+
+  .descripcionResto {
+    text-align: center;
+  }
+
+  .imagenResto {
+    display: block;
+    margin: auto;
+  }
+
+  .descripcionChef {
+    text-align: center;
+  }
+
+  .imagenChef {
+    display: block;
+    margin: auto;
+  }
+
+  /* blog */
+  .articulos__blog {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    row-gap: 50px;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+    margin-top: 6%;
+  }
+  .articulos__blog .blog_card {
+    box-shadow: 0 4px 8px 0 rgba(255, 136, 0, 0.2);
+    transition: 0.3s;
+    width: 80%;
+  }
+  .articulos__blog .blog_card .container_blog {
+    padding: 2em 2em;
+  }
+  .articulos__blog .blog_card .container_blog .titulo_blog {
+    text-align: center;
+    margin-top: 2%;
+  }
+  .articulos__blog .blog_card .container_blog .container_blog--link {
+    text-decoration: none;
+    color: #0a860a;
+  }
+  .articulos__blog .blog_card .img_blog {
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+  .articulos__blog .blog_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .pagination .page-item .page-link {
+    color: #ff8800;
+    border: #ff8800;
+  }
+}/*# sourceMappingURL=estilos.css.map */
