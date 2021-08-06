@@ -395,39 +395,6 @@ footer .footer__logored a:hover {
 }
 
 /* nosotros */
-.resto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr 2fr;
-  row-gap: 15px;
-  justify-content: center;
-  align-items: center;
-  -moz-column-gap: 2em;
-       column-gap: 2em;
-  margin-left: 5em;
-}
-
-.descripcionResto {
-  padding-top: 15em;
-}
-
-.imagenResto {
-  height: 30em;
-  padding-top: 10em;
-}
-
-.descripcionChef {
-  padding-right: 5em;
-  padding-top: 15em;
-}
-
-.imagenChef {
-  height: 30em;
-  padding-top: 10em;
-  padding-left: 5em;
-  padding-bottom: 5em;
-}
-
 @media only screen and (min-width: 961px) and (max-width: 1380px) {
   .navbar-brand {
     display: none;
@@ -608,36 +575,6 @@ footer .footer__logored a:hover {
   }
 
   /* nosotros */
-  .resto {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr;
-    row-gap: 15px;
-    justify-content: center;
-    align-items: center;
-    -moz-column-gap: 2em;
-         column-gap: 2em;
-    margin-left: 5em;
-  }
-
-  .descripcionResto {
-    text-align: center;
-  }
-
-  .imagenResto {
-    display: block;
-    margin: auto;
-  }
-
-  .descripcionChef {
-    text-align: center;
-  }
-
-  .imagenChef {
-    display: block;
-    margin: auto;
-  }
-
   /* blog */
   .articulos__blog {
     display: grid;
