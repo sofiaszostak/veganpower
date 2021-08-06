@@ -61,7 +61,7 @@
   color: white;
 }
 
-.jumbotron {
+.jumbotron-fluid {
   background-image: url(imagenes/toasts.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -395,12 +395,28 @@ footer .footer__logored a:hover {
 }
 
 /* nosotros */
-@media only screen and (min-width: 961px) and (max-width: 1380px) {
+.el_resto {
+  margin-top: 5em;
+}
+
+.el_chef {
+  margin: 5em 0;
+}
+
+@media only screen and (min-width: 878px) and (max-width: 1380px) {
+  /* para pc */
   .navbar-brand {
     display: none;
   }
+
+  .navbar-toggler {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
 }
-@media only screen and (min-width: 200px) and (max-width: 960px) {
+@media only screen and (min-width: 481px) and (max-width: 877px) {
+  /* tablet */
   .main__h1 {
     font-size: 3em;
     text-align: center;
@@ -423,17 +439,16 @@ footer .footer__logored a:hover {
     display: inline-block;
   }
 
-  .jumbotron {
+  .jumbotron-fluid {
     background-image: url(imagenes/toasts.png);
     background-size: cover;
     height: 80vh;
     background-position: center;
-    width: auto;
   }
 
   footer {
     background-color: #0a860a;
-    height: 60vh;
+    height: auto;
   }
 
   .suscribite {
@@ -575,6 +590,11 @@ footer .footer__logored a:hover {
   }
 
   /* nosotros */
+  .img-fluid {
+    display: block;
+    margin: auto;
+  }
+
   /* blog */
   .articulos__blog {
     display: grid;
@@ -618,5 +638,110 @@ footer .footer__logored a:hover {
   .pagination .page-item .page-link {
     color: #ff8800;
     border: #ff8800;
+  }
+
+  /* btn wsapp */
+  .float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+
+  .float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #ffffff;
+  }
+
+  .my_float {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  /* celular */
+  .text-center {
+    display: none;
+  }
+
+  .navbar-brand {
+    font-size: 1.5em;
+  }
+
+  /* nosotros */
+  .el_resto {
+    margin: 1.5em 1.5em;
+  }
+
+  .el_chef {
+    margin: 1.5em 1.5em;
+  }
+
+  .main__h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .text-center {
+    display: none;
+  }
+
+  .navbar-brand {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .nav-link {
+    display: inline-block;
+  }
+
+  .footer__datos {
+    display: inline-block;
+  }
+
+  .jumbotron-fluid {
+    background-image: url(imagenes/toasts.png);
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+  }
+
+  footer {
+    background-color: #0a860a;
+    height: auto;
+  }
+
+  /* btn wsapp */
+  .float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+
+  .float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #ffffff;
+  }
+
+  .my_float {
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=estilos.css.map */
