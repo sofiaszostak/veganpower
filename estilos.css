@@ -304,6 +304,7 @@ footer .footer__logored a:hover {
   background: #ff8800;
   margin-bottom: 2em;
   padding: 1em 2em;
+  box-shadow: 7px 7px 20px #ff8800;
 }
 
 .field {
