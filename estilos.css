@@ -289,16 +289,20 @@ footer .footer__logored a:hover {
 /* contacto page */
 .section_contacto__h2 {
   text-align: left;
-  margin-left: 2em;
+  margin-left: 0.5em;
   margin-top: 2em;
+  margin-bottom: 1.5em;
 }
 
 .formulario {
-  width: 45%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 2em;
   border-radius: 4px;
-  background-color: rgba(255, 136, 0, 0.3);
+  background: #ff8800;
   margin-bottom: 2em;
-  margin-left: 5em;
   padding: 1em 2em;
 }
 
@@ -308,12 +312,22 @@ footer .footer__logored a:hover {
   border: 2px solid #0a860a;
 }
 
+label {
+  color: white;
+}
+
+.text_field {
+  resize: none;
+  border: 2px solid #0a860a;
+}
+
 .btn_contacto {
   color: black;
   border: solid 2px #0a860a;
   border-radius: 12px;
   transition-duration: 0.4s;
   padding: 5px;
+  margin-bottom: 1em;
   font-size: 16px;
   background-color: white;
 }
@@ -321,6 +335,14 @@ footer .footer__logored a:hover {
 .btn_contacto:hover {
   background-color: #0a860a;
   color: white;
+}
+
+.section_contacto {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  -moz-column-gap: 2%;
+       column-gap: 2%;
+  justify-items: center;
 }
 
 /* blog page */
@@ -413,6 +435,16 @@ footer .footer__logored a:hover {
     width: 100%;
     float: none;
     margin-right: 0;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .section_contacto__h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1em;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 877px) {
@@ -520,30 +552,45 @@ footer .footer__logored a:hover {
 
   /* contacto */
   .section_contacto__h2 {
-    text-align: left;
-    margin-left: 1em;
-    margin-top: 2em;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 1em;
+  }
+
+  .section_contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
   }
 
   .formulario {
-    width: 100%;
+    display: flex;
+    margin: 0;
+    margin-bottom: 2em;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
     border-radius: 4px;
-    margin: auto;
+    background: #ff8800;
     padding: 1em 2em;
   }
 
   .field {
-    display: block;
-    width: auto;
     border-radius: 0.2em;
     margin-bottom: 16px;
     border: 2px solid #0a860a;
-    width: 100%;
+  }
+
+  label {
+    color: white;
   }
 
   .text_field {
-    width: 30%;
-    height: 30%;
+    resize: none;
+    border: 2px solid #0a860a;
   }
 
   .btn_contacto {
@@ -552,12 +599,29 @@ footer .footer__logored a:hover {
     border-radius: 12px;
     transition-duration: 0.4s;
     padding: 5px;
+    margin-bottom: 1em;
+    font-size: 16px;
     background-color: white;
   }
 
   .btn_contacto:hover {
     background-color: #0a860a;
     color: white;
+  }
+
+  hr {
+    height: 2px;
+    width: 80%;
+    border-top: 2px solid black;
+  }
+
+  .container_datos {
+    text-align: left;
+    margin-left: 0.2em;
+  }
+
+  iframe {
+    margin-bottom: 1.5em;
   }
 
   /* menu */
@@ -743,5 +807,79 @@ footer .footer__logored a:hover {
 
   .my_float {
     margin-top: 10px;
+  }
+
+  /* contacto page */
+  .section_contacto__h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1em;
+  }
+
+  .section_contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .formulario {
+    display: flex;
+    margin: 0;
+    margin-bottom: 2em;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 4px;
+    background: #ff8800;
+    padding: 1em 2em;
+  }
+
+  .field {
+    border-radius: 0.2em;
+    margin-bottom: 16px;
+    border: 2px solid #0a860a;
+  }
+
+  label {
+    color: white;
+  }
+
+  .text_field {
+    resize: none;
+    border: 2px solid #0a860a;
+  }
+
+  .btn_contacto {
+    color: black;
+    border: solid 2px #0a860a;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    padding: 5px;
+    margin-bottom: 1em;
+    font-size: 16px;
+    background-color: white;
+  }
+
+  .btn_contacto:hover {
+    background-color: #0a860a;
+    color: white;
+  }
+
+  hr {
+    height: 2px;
+    width: 80%;
+    border-top: 2px solid black;
+  }
+
+  .container_datos {
+    text-align: left;
+    margin-left: 0.2em;
+  }
+
+  iframe {
+    margin-bottom: 1.5em;
   }
 }/*# sourceMappingURL=estilos.css.map */
