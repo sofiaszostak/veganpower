@@ -474,7 +474,8 @@ label {
   .jumbotron-fluid {
     background-image: url(imagenes/toasts.png);
     background-size: cover;
-    height: 80vh;
+    height: 60vh;
+    background-repeat: no-repeat;
     background-position: center;
   }
 
@@ -774,7 +775,8 @@ label {
   .jumbotron-fluid {
     background-image: url(imagenes/toasts.png);
     background-size: cover;
-    height: 80vh;
+    height: 40vh;
+    background-repeat: no-repeat;
     background-position: center;
   }
 
