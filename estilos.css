@@ -403,9 +403,9 @@ label {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 2fr;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
-  row-gap: 50px;
+  -moz-column-gap: 0.1em;
+       column-gap: 0.1em;
+  row-gap: 3.12em;
   justify-items: center;
   align-items: center;
   padding-bottom: 5%;
@@ -415,6 +415,23 @@ label {
 
 .nombre_plato {
   text-align: center;
+}
+
+.img_menu--margin {
+  margin: 0;
+  margin-left: 5em;
+}
+
+.img_menu--marginright {
+  padding-left: 3em;
+}
+
+.img_menu--margintop {
+  margin-top: 3%;
+}
+
+.entradas_marginbottom {
+  margin-bottom: 6%;
 }
 
 /* nosotros */
