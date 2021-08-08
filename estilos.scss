@@ -520,19 +520,27 @@ label {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 2fr;
-    column-gap: 0.1em;
     row-gap: 3.12em;
     justify-items: center;
     align-items: center;
     padding-bottom: 5%;
     justify-content: center;
-    margin-top: 6%;
+    margin-top: 6%; 
+    overflow: hidden;
 
+} 
+
+.titulo_secundario--center {
+    text-align: center; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    margin-bottom: 1em;
 }
 
 .nombre_plato {
-    text-align: center;
+    text-align: left;
 } 
+
 
 
 .img_menu--margin {
@@ -595,7 +603,18 @@ label {
         
         
         
-    } 
+    }  
+
+
+    .jumbotron-fluid {
+        background-image: url(imagenes/toasts.png);
+        background-size: cover;
+        height: 90vh;
+        background-repeat: no-repeat; 
+        background-position: center; 
+
+        
+    }
 
 
 }
@@ -628,7 +647,7 @@ label {
     .jumbotron-fluid {
         background-image: url(imagenes/toasts.png);
         background-size: cover;
-        height: 60vh;
+        height: 70vh;
         background-repeat: no-repeat; 
         background-position: center; 
 
@@ -878,9 +897,7 @@ iframe {
        
        } 
        
-       .img_menu--size {
-           width: 100%;
-       }
+       
     
     
     
