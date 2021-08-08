@@ -836,36 +836,70 @@ iframe {
     /* menu */
 
 
+    .sectionMenu {
+        padding-top: 5%;
+    
+        .sectionMenu__parrafo {
+            text-align: center; 
+           
+        }
+    
+    }
+    
     .container__menu {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 2fr 2fr 2fr 2fr;
-        column-gap: 15px;
-        row-gap: 50px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 0.5em;
         justify-items: center;
         align-items: center;
         padding-bottom: 5%;
         justify-content: center;
+        margin-top: 6%;
+    
+    } 
+    
+    .titulo_secundario--center {
+        text-align: center; 
+        padding-bottom: 1em;
     }
+    
+    .nombre_plato {
+        text-align:left;
+         font-size: 20px; 
+        font-weight: bold;
+    } 
+    
+    
+    .img_menu--margin {
+       
+        display: block; 
+        margin: auto;  
+       
+       } 
+       
+       .img_menu--size {
+           width: 100%;
+       }
+    
+    
+    
+    
+    
+    
+    
+    .img_menu--marginright { 
+         
+        display: none;
+    } 
+    
+    
+    .img_menu--none {
+        display: none; 
+       
+    } 
 
 
-    .sectionMenu {
-        padding-top: 5%;
-
-
-    }
-
-    .sectionMenu__parrafo {
-        text-align: center;
-        padding-bottom: 2%;
-    }
-
-    .img_menu {
-        display: block;
-        margin: auto;
-        width: 60%;
-
-    }
 
 
     /* nosotros */
@@ -1223,5 +1257,72 @@ iframe {
 .section__h2 {
     font-size: 25px;
 }
+
+
+ /* menu page */
+
+.sectionMenu {
+    padding-top: 5%;
+
+    .sectionMenu__parrafo {
+        text-align: center; 
+       
+    }
+
+}
+
+.container__menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 0.5em;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 5%;
+    justify-content: center;
+    margin-top: 6%;
+
+} 
+
+.titulo_secundario--center {
+    text-align: center; 
+    padding-bottom: 1em;
+}
+
+.nombre_plato {
+    text-align:left;
+     font-size: 20px; 
+    font-weight: bold;
+} 
+
+
+.img_menu--margin {
+   
+    display: block; 
+    margin: auto;  
+    
+    
+     
+}  
+
+
+
+
+
+
+
+.img_menu--marginright { 
+     
+    display: none;
+} 
+
+
+.img_menu--none {
+    display: none; 
+   
+} 
+
+
+
 
 }
