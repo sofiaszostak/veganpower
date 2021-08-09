@@ -144,22 +144,6 @@
   border-radius: 2em;
 }
 
-/* .image__overlay {
-    position: absolute; 
-    top: 0; 
-    left: 0;  
-    width: 80%; 
-    height: 43vh; 
-    border-radius: 2em;
-    background-color: rgba(10, 134, 10, 0.6); 
-    color: white; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    opacity: 0; 
-    transition: opacity 0.25s;
-}   */
 .image__overlay {
   position: absolute;
   top: 0;
@@ -185,7 +169,26 @@
   padding: 30%;
 }
 
-/* estilo al boton de menu completo */
+.btn-lg {
+  background-color: white;
+  color: black;
+  border-color: #ff8800;
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.btn-lg:hover {
+  background-color: #ff8800;
+  border-color: #ff8800;
+}
+
+.btn_menu {
+  display: flex;
+  justify-content: center;
+  margin: 3em 0;
+}
+
 /* sección newsletter */
 .container_suscribite {
   padding-top: 5%;
@@ -208,7 +211,7 @@
 }
 .container_suscribite .suscribite .parrafo__suscribite {
   color: white;
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 .formField {
@@ -216,9 +219,10 @@
 }
 
 .email_field {
-  border-radius: 0.75em;
-  font-size: 1em;
-  padding: 0.313 1em;
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 5px 15px;
+  margin-right: 1em;
 }
 
 .btn_send {
@@ -228,14 +232,15 @@
   background-color: white;
   font-size: 16px;
   cursor: pointer;
-  padding: 5px 13px;
+  padding: 5px 15px;
+  margin-left: 1em;
 }
 
 .btn_send:hover {
   color: white;
   background-color: #0a860a;
   border: #ff8800;
-  padding: 5px 15px;
+  padding: 5px 17px;
 }
 
 /* btn wsapp */
@@ -526,24 +531,6 @@ label {
     height: auto;
   }
 
-  .suscribite {
-    display: block;
-    width: 100%;
-    height: 30vh;
-    padding-top: 2em;
-  }
-
-  .parrafo__suscribite {
-    color: white;
-    font-size: 1.25em;
-    text-align: center;
-  }
-
-  .formField {
-    padding-left: 2%;
-    text-align: center;
-  }
-
   .fa-seedling {
     font-size: 30px;
     margin: 20px 20px;
@@ -596,6 +583,86 @@ label {
     text-align: center;
     color: white;
     padding: 25%;
+  }
+
+  .btn-lg {
+    background-color: white;
+    color: black;
+    border-color: #ff8800;
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.2em;
+  }
+
+  .btn-lg:hover {
+    background-color: #ff8800;
+    border-color: #ff8800;
+  }
+
+  .btn_menu {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+  }
+
+  /* sección newsletter */
+  .container_suscribite {
+    padding-top: 5%;
+    background-image: url(imagenes/food.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .container_suscribite .div__revolucion {
+    color: white;
+    text-align: center;
+  }
+  .container_suscribite .suscribite {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 30vh;
+  }
+  .container_suscribite .suscribite .parrafo__suscribite {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .formField {
+    padding-left: 2%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .email_field {
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 5px 15px;
+    margin-right: 1em;
+  }
+
+  .btn_send {
+    border-radius: 12px;
+    color: black;
+    border: solid 2px #0a860a;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-left: 1em;
+  }
+
+  .btn_send:hover {
+    color: white;
+    background-color: #0a860a;
+    border: #ff8800;
+    padding: 5px 17px;
   }
 
   /* contacto */
@@ -1081,5 +1148,86 @@ label {
     text-align: center;
     color: white;
     padding: 25%;
+  }
+
+  .btn-lg {
+    background-color: white;
+    color: black;
+    border-color: #ff8800;
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1em;
+  }
+
+  .btn-lg:hover {
+    background-color: #ff8800;
+    border-color: #ff8800;
+  }
+
+  .btn_menu {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em 0;
+  }
+
+  /* sección newsletter */
+  .container_suscribite {
+    padding-top: 5%;
+    background-image: url(imagenes/food.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .container_suscribite .div__revolucion {
+    color: white;
+    text-align: center;
+  }
+  .container_suscribite .suscribite {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 40vh;
+  }
+  .container_suscribite .suscribite .parrafo__suscribite {
+    color: white;
+    font-size: 1.25em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .formField {
+    padding-left: 2%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .email_field {
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 2px 15px;
+    margin-right: 1em;
+  }
+
+  .btn_send {
+    border-radius: 10px;
+    color: black;
+    border: solid 2px #0a860a;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 2px 15px;
+    margin-right: 1.5em;
+    margin-top: 1em;
+  }
+
+  .btn_send:hover {
+    color: white;
+    background-color: #0a860a;
+    border: #ff8800;
+    padding: 5px 17px;
   }
 }/*# sourceMappingURL=estilos.css.map */
