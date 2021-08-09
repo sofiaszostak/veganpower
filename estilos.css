@@ -61,8 +61,52 @@
   color: white;
 }
 
-.jumbotron-fluid {
-  background-image: url(imagenes/toasts.png);
+.jumbotron-fluid_menu {
+  background-image: url(imagenes/portadamenu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron-fluid_index {
+  background-image: url(imagenes/portadabienvenida.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron-fluid_blog {
+  background-image: url(imagenes/portadablog.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron-fluid_nosotros {
+  background-image: url(imagenes/portadanosotros.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron-fluid_contacto {
+  background-image: url(imagenes/portadacontacto.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -78,6 +122,7 @@
   font-weight: 200;
   font-size: 5em;
   color: white;
+  margin-top: 2em;
 }
 
 /* sección nuestros valores */
@@ -119,6 +164,12 @@
 }
 
 .fa-seedling {
+  font-size: 40px;
+  margin: 20px 20px;
+  color: #ff8800;
+}
+
+.fa-hand-holding-seedling {
   font-size: 40px;
   margin: 20px 20px;
   color: #ff8800;
@@ -532,6 +583,12 @@ label {
   }
 
   .fa-seedling {
+    font-size: 30px;
+    margin: 20px 20px;
+    color: #ff8800;
+  }
+
+  .fa-hand-holding-seedling {
     font-size: 30px;
     margin: 20px 20px;
     color: #ff8800;
