@@ -116,13 +116,21 @@
   align-items: center;
 }
 
-.main__h1 {
+.main__h1--inicio {
   font-family: neonoir, sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 5em;
   color: white;
   margin-top: 2em;
+}
+
+.main__h1 {
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 5em;
+  color: white;
 }
 
 /* sección nuestros valores */
@@ -486,7 +494,11 @@ label {
 }
 
 .nombre_plato {
-  text-align: left;
+  text-align: center;
+}
+
+.menu_descripcion {
+  text-align: center;
 }
 
 .img_menu--margin {
@@ -537,12 +549,44 @@ label {
     margin-top: 1em;
   }
 
-  .jumbotron-fluid {
-    background-image: url(imagenes/toasts.png);
+  .jumbotron-fluid_menu {
+    background-image: url(imagenes/portadamenu.png);
     background-size: cover;
-    height: 90vh;
     background-repeat: no-repeat;
     background-position: center;
+    height: 90vh;
+  }
+
+  .jumbotron-fluid_index {
+    background-image: url(imagenes/portadabienvenida.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+  }
+
+  .jumbotron-fluid_blog {
+    background-image: url(imagenes/portadablog.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+  }
+
+  .jumbotron-fluid_nosotros {
+    background-image: url(imagenes/portadanosotros.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+  }
+
+  .jumbotron-fluid_contacto {
+    background-image: url(imagenes/portadacontacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 877px) {
@@ -550,6 +594,15 @@ label {
   .main__h1 {
     font-size: 3em;
     text-align: center;
+  }
+
+  .main__h1--inicio {
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 3em;
+    color: white;
+    margin-top: 2em;
   }
 
   .text-center {
@@ -569,12 +622,44 @@ label {
     display: inline-block;
   }
 
-  .jumbotron-fluid {
-    background-image: url(imagenes/toasts.png);
+  .jumbotron-fluid_menu {
+    background-image: url(imagenes/portadamenu.png);
     background-size: cover;
-    height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
+    height: 70vh;
+  }
+
+  .jumbotron-fluid_index {
+    background-image: url(imagenes/portadabienvenida.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+  }
+
+  .jumbotron-fluid_blog {
+    background-image: url(imagenes/portadablog.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+  }
+
+  .jumbotron-fluid_nosotros {
+    background-image: url(imagenes/portadanosotros.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+  }
+
+  .jumbotron-fluid_contacto {
+    background-image: url(imagenes/portadacontacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
   }
 
   footer {
@@ -819,12 +904,17 @@ label {
   .titulo_secundario--center {
     text-align: center;
     padding-bottom: 1em;
+    margin: auto;
   }
 
   .nombre_plato {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
+  }
+
+  .menu_descripcion {
+    text-align: center;
   }
 
   .img_menu--margin {
@@ -941,6 +1031,15 @@ label {
     text-align: center;
   }
 
+  .main__h1--inicio {
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2em;
+    color: white;
+    margin-top: 2em;
+  }
+
   .text-center {
     display: none;
   }
@@ -964,6 +1063,46 @@ label {
     height: 40vh;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .jumbotron-fluid_menu {
+    background-image: url(imagenes/portadamenu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+  }
+
+  .jumbotron-fluid_index {
+    background-image: url(imagenes/portadabienvenida.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+  }
+
+  .jumbotron-fluid_blog {
+    background-image: url(imagenes/portadablog.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+  }
+
+  .jumbotron-fluid_nosotros {
+    background-image: url(imagenes/portadanosotros.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+  }
+
+  .jumbotron-fluid_contacto {
+    background-image: url(imagenes/portadacontacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
   }
 
   footer {
@@ -1138,12 +1277,17 @@ label {
   .titulo_secundario--center {
     text-align: center;
     padding-bottom: 1em;
+    margin: auto;
   }
 
   .nombre_plato {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
+  }
+
+  .menu_descripcion {
+    text-align: center;
   }
 
   .img_menu--margin {
