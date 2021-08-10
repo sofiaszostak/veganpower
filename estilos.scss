@@ -61,6 +61,7 @@ $verde: rgb(10, 134, 10);
 /* para centrar los items en menú hamburguesa */
 
 
+
 .header {
     background-color: $naranja;
 
@@ -422,7 +423,7 @@ $verde: rgb(10, 134, 10);
 
 footer {
     background-color: $verde;
-    height: 30vh;
+    height: 33vh;
 
     .nav-link {
         color: white
@@ -441,6 +442,12 @@ footer {
         margin: 0 1.5em;
         color: white;
 
+    } 
+
+    .footer__copyright {
+        text-align: center; 
+        color: white; 
+        margin-top: 0.5em;
     }
 
     .footer__redes {
@@ -832,6 +839,11 @@ label {
 
     .footer__datos {
         display: inline-block;
+    } 
+
+    .footer__copyright {
+        
+        text-align: center;
     }
 
     
@@ -1970,9 +1982,11 @@ iframe {
     
     border: $naranja;
     padding: 5px 17px;
-     
+     }
 
-
-}
+     .footer__copyright {
+        
+        text-align: center;
+    }
 
 }

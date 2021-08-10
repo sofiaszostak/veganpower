@@ -335,7 +335,7 @@
 /* footer */
 footer {
   background-color: #0a860a;
-  height: 30vh;
+  height: 33vh;
 }
 footer .nav-link {
   color: white;
@@ -350,6 +350,11 @@ footer .footer__datos {
   text-align: center;
   margin: 0 1.5em;
   color: white;
+}
+footer .footer__copyright {
+  text-align: center;
+  color: white;
+  margin-top: 0.5em;
 }
 footer .footer__redes {
   display: flex;
@@ -649,6 +654,10 @@ label {
 
   .footer__datos {
     display: inline-block;
+  }
+
+  .footer__copyright {
+    text-align: center;
   }
 
   .jumbotron-fluid_menu {
@@ -1490,5 +1499,9 @@ label {
     background-color: #0a860a;
     border: #ff8800;
     padding: 5px 17px;
+  }
+
+  .footer__copyright {
+    text-align: center;
   }
 }/*# sourceMappingURL=estilos.css.map */
