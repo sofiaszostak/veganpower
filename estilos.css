@@ -259,6 +259,10 @@
 .container_suscribite .div__revolucion {
   color: white;
   text-align: center;
+  font-size: 2.5em;
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
 }
 .container_suscribite .suscribite {
   display: flex;
@@ -366,6 +370,9 @@ footer .footer__logored a:hover {
   margin-left: 0.5em;
   margin-top: 2em;
   margin-bottom: 1.5em;
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
 }
 
 .formulario {
@@ -421,6 +428,10 @@ label {
 }
 
 /* blog page */
+.section_blog {
+  margin-top: 1.5em;
+}
+
 .articulos__blog {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -469,8 +480,14 @@ label {
 .sectionMenu {
   padding-top: 5%;
 }
-.sectionMenu .sectionMenu__parrafo {
+.sectionMenu .sectionMenu__subtitulo {
   text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 1em;
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
 }
 
 .container__menu {
@@ -527,6 +544,13 @@ label {
   margin: 5em 0;
 }
 
+.titulo_nosotros {
+  font-family: neonoir, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.5em;
+}
+
 @media only screen and (min-width: 878px) and (max-width: 1380px) {
   /* para pc */
   .navbar-brand {
@@ -545,8 +569,13 @@ label {
 
   .section_contacto__h2 {
     text-align: center;
-    font-size: 25px;
-    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.8em;
   }
 
   .jumbotron-fluid_menu {
@@ -759,6 +788,10 @@ label {
   .container_suscribite .div__revolucion {
     color: white;
     text-align: center;
+    font-size: 2.5em;
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
   }
   .container_suscribite .suscribite {
     display: grid;
@@ -810,8 +843,11 @@ label {
   /* contacto */
   .section_contacto__h2 {
     text-align: center;
-    font-size: 23px;
-    margin-top: 1em;
+    margin: auto;
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5em;
   }
 
   .section_contacto {
@@ -821,6 +857,7 @@ label {
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 2em;
   }
 
   .formulario {
@@ -833,6 +870,7 @@ label {
     border-radius: 4px;
     background: #ff8800;
     padding: 1em 2em;
+    margin-top: 1em;
   }
 
   .field {
@@ -885,8 +923,14 @@ label {
   .sectionMenu {
     padding-top: 5%;
   }
-  .sectionMenu .sectionMenu__parrafo {
+  .sectionMenu .sectionMenu__subtitulo {
     text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
   }
 
   .container__menu {
@@ -1139,8 +1183,12 @@ label {
   /* contacto page */
   .section_contacto__h2 {
     text-align: center;
-    font-size: 25px;
-    margin-top: 1em;
+    margin-left: 0.5em;
+    margin: auto;
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5em;
   }
 
   .section_contacto {
@@ -1150,6 +1198,7 @@ label {
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-top: 1.5em;
   }
 
   .formulario {
@@ -1258,8 +1307,15 @@ label {
   .sectionMenu {
     padding-top: 5%;
   }
-  .sectionMenu .sectionMenu__parrafo {
+  .sectionMenu .sectionMenu__subtitulo {
     text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    margin: auto;
   }
 
   .container__menu {
@@ -1383,6 +1439,10 @@ label {
   .container_suscribite .div__revolucion {
     color: white;
     text-align: center;
+    font-size: 2em;
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
   }
   .container_suscribite .suscribite {
     display: grid;

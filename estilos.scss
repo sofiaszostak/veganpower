@@ -318,7 +318,12 @@ $verde: rgb(10, 134, 10);
 
     .div__revolucion {
         color: white;
-        text-align: center;
+        text-align: center; 
+        font-size: 2.5em;
+        font-family: neonoir, sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        
     }
 
      .suscribite {
@@ -466,7 +471,11 @@ footer {
     text-align: left;
     margin-left: 0.5em;
     margin-top: 2em; 
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5em; 
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;  
+     
 }
 
 .formulario {
@@ -537,6 +546,11 @@ label {
 .section__h2 {
     @extend %font;
 
+} 
+
+
+.section_blog {
+    margin-top: 1.5em;
 }
 
 .articulos__blog {
@@ -602,8 +616,14 @@ label {
 .sectionMenu {
     padding-top: 5%;
 
-    .sectionMenu__parrafo {
-        text-align: center;
+    .sectionMenu__subtitulo {
+        text-align: center; 
+        font-size: 2em; 
+        font-weight: bold; 
+        margin-top: 1em; 
+        font-family: neonoir, sans-serif;
+        font-style: normal;
+        font-weight: 200;
     }
 
 }
@@ -674,7 +694,15 @@ label {
 
 .el_chef {
     margin: 5em 0;
-}
+} 
+
+.titulo_nosotros {
+        font-family: neonoir, sans-serif;
+        font-style: normal;
+        font-weight: 200; 
+        font-size: 2.5em;
+    
+    }
 
 @media only screen and (min-width:878px) and (max-width: 1380px) {    /* para pc */
 
@@ -694,15 +722,16 @@ label {
     }
 
     .section_contacto__h2 {
-        text-align: center;  
-        
-        font-size: 25px; 
-        
-        margin-top: 1em;   
-        
-        
-        
-    }  
+        text-align: center;
+        margin-left: 0.5em;
+        margin-top: 2em; 
+        margin-bottom: 1.5em; 
+        font-family: neonoir, sans-serif;
+        font-style: normal;
+        font-weight: 200;   
+        font-size: 1.8em;
+         
+    }
 
 
     
@@ -987,7 +1016,12 @@ label {
 
     .div__revolucion {
         color: white;
-        text-align: center;
+        text-align: center; 
+        font-size: 2.5em;
+        font-family: neonoir, sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        
     }
 
     
@@ -1070,15 +1104,17 @@ label {
     /* contacto */
 
     .section_contacto__h2 {
-        text-align: center;  
-        
-        font-size: 23px; 
-        
-        margin-top: 1em;   
+        text-align: center;
+         
+        margin: auto;
         
         
-        
-    } 
+        font-family: neonoir, sans-serif;
+        font-style: normal;
+        font-weight: 200;   
+        font-size: 1.5em;
+         
+    }
 
 
     .section_contacto {
@@ -1087,7 +1123,8 @@ label {
         grid-template-rows: 2fr 2fr;  
        justify-content: center; 
        justify-items: center;  
-       align-items: center; 
+       align-items: center;  
+       margin-top: 2em;
        
        
         
@@ -1106,7 +1143,8 @@ label {
         border-radius: 4px; 
         background: $naranja; 
          
-        padding: 1em 2em;  
+        padding: 1em 2em;   
+        margin-top: 1em;
         
     
     }
@@ -1180,9 +1218,15 @@ iframe {
     .sectionMenu {
         padding-top: 5%;
     
-        .sectionMenu__parrafo {
+       
+        .sectionMenu__subtitulo {
             text-align: center; 
-           
+            font-size: 2em; 
+            font-weight: bold; 
+            margin-top: 1em; 
+            font-family: neonoir, sans-serif;
+            font-style: normal;
+            font-weight: 200;
         }
     
     }
@@ -1507,16 +1551,16 @@ footer {
 
 /* contacto page */   
 
-    .section_contacto__h2 {
-        text-align: center;  
-        
-        font-size: 25px; 
-        
-        margin-top: 1em;   
-        
-        
-        
-    } 
+.section_contacto__h2 {
+    text-align: center;
+    margin-left: 0.5em;
+    margin: auto; 
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;   
+    font-size: 1.5em;
+     
+}
 
 
     .section_contacto {
@@ -1525,7 +1569,8 @@ footer {
         grid-template-rows: 2fr 2fr;  
        justify-content: center; 
        justify-items: center;  
-       align-items: center; 
+       align-items: center;  
+       margin-top: 1.5em;
        
        
         
@@ -1672,8 +1717,16 @@ iframe {
 .sectionMenu {
     padding-top: 5%;
 
-    .sectionMenu__parrafo {
+    .sectionMenu__subtitulo {
         text-align: center; 
+        font-size: 1.5em; 
+        font-weight: bold; 
+        margin-top: 1em; 
+        font-family: neonoir, sans-serif;
+        font-style: normal;
+        font-weight: 200; 
+        margin: auto;
+    
        
     }
 
@@ -1840,7 +1893,12 @@ iframe {
 
     .div__revolucion {
         color: white;
-        text-align: center;
+        text-align: center; 
+        font-size: 2em;
+        font-family: neonoir, sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        
     }
 
     
