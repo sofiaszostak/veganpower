@@ -543,10 +543,12 @@ label {
 /* nosotros */
 .el_resto {
   margin-top: 5em;
+  overflow: hidden;
 }
 
 .el_chef {
   margin: 5em 0;
+  overflow: hidden;
 }
 
 .titulo_nosotros {
@@ -556,6 +558,77 @@ label {
   font-size: 2.5em;
 }
 
+@media only screen and (min-width: 1381px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-toggler {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .section_contacto__h2 {
+    text-align: center;
+    margin-left: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    font-family: neonoir, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.8em;
+  }
+
+  .jumbotron-fluid_menu {
+    background-image: url(imagenes/portadamenu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+  }
+
+  .jumbotron-fluid_index {
+    background-image: url(imagenes/portadabienvenida.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+  }
+
+  .jumbotron-fluid_blog {
+    background-image: url(imagenes/portadablog.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+  }
+
+  .jumbotron-fluid_nosotros {
+    background-image: url(imagenes/portadanosotros.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+  }
+
+  .jumbotron-fluid_contacto {
+    background-image: url(imagenes/portadacontacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+  }
+
+  footer {
+    background-color: #0a860a;
+    height: auto;
+  }
+}
 @media only screen and (min-width: 878px) and (max-width: 1380px) {
   /* para pc */
   .navbar-brand {
@@ -621,6 +694,11 @@ label {
     background-repeat: no-repeat;
     background-position: center;
     height: 90vh;
+  }
+
+  footer {
+    background-color: #0a860a;
+    height: auto;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 877px) {
