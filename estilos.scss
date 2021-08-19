@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* variables */ 
+
 
 $naranja: rgb(255, 136, 0);  
 $verde: rgb(10, 134, 10);  
@@ -23,7 +23,7 @@ $verde: rgb(10, 134, 10);
 
 
 .navbar-dark .navbar-nav .nav-link {
-    /* cambiar de color los items del menu */
+    
     color: white;
 
 
@@ -46,19 +46,19 @@ $verde: rgb(10, 134, 10);
 
 .nav-link {
     color: white;
-    /* para darle estilo por ahora al "logo" */
+    
 }
 
 .nav-link:hover {
     color: white;
-    /* para evitar el efecto hover en links bootstrap default */
+    
 }
 
 .navbar-nav {
     text-align: center;
 }
 
-/* para centrar los items en menú hamburguesa */
+
 
 
 
@@ -155,7 +155,7 @@ $verde: rgb(10, 134, 10);
     
 }
 
-/* sección nuestros valores */
+
 
 .valores {
 
@@ -217,7 +217,7 @@ $verde: rgb(10, 134, 10);
 
 
 
-/* estilo a elegidos */
+
 
 .elegidos {
     width: 80%;
@@ -308,7 +308,7 @@ $verde: rgb(10, 134, 10);
 
 
 
-/* sección newsletter */
+
 
 .container_suscribite {
     padding-top: 5%;
@@ -392,7 +392,7 @@ $verde: rgb(10, 134, 10);
 
 }
 
-/* btn wsapp */
+
 
 .float {
     position: fixed;
@@ -419,7 +419,7 @@ $verde: rgb(10, 134, 10);
     margin-top: 16px;
 }
 
-/* footer */
+
 
 footer {
     background-color: $verde;
@@ -472,7 +472,7 @@ footer {
 }
 
 
-/* contacto page */
+
 
 .section_contacto__h2 {
     text-align: left;
@@ -548,7 +548,7 @@ label {
 
 
 
-/* blog page */
+
 
 .section__h2 {
     @extend %font;
@@ -618,7 +618,7 @@ label {
 }
 
 
-/* menu page */
+
 
 .sectionMenu {
     padding-top: 5%;
@@ -693,7 +693,7 @@ label {
 } 
 
 
-/* nosotros */
+
 
 .el_resto {
     margin-top: 5em; 
@@ -808,7 +808,7 @@ label {
 
 
 
-@media only screen and (min-width:878px) and (max-width: 1380px) {    /* para pc */
+@media only screen and (min-width:878px) and (max-width: 1380px) {    
 
     .navbar-brand {
         display: none;
@@ -1024,7 +1024,7 @@ label {
 
 
     
-    /* sección elegidos */
+    
 
     .elegidos {
         width: 80%;
@@ -1043,7 +1043,7 @@ label {
     
     .container__plato {
         position: relative; 
-       /* margin: 3em; */
+       
     }
     
     .image__img {
@@ -1117,7 +1117,7 @@ label {
 
 
 
-     /* sección newsletter */
+     
 
 .container_suscribite {
     padding-top: 5%;
@@ -1213,7 +1213,7 @@ label {
 
 
 
-    /* contacto */
+    
 
     .section_contacto__h2 {
         text-align: center;
@@ -1324,7 +1324,7 @@ iframe {
     
 }
 
-    /* menu */
+    
 
 
     .sectionMenu {
@@ -1405,7 +1405,7 @@ iframe {
 
 
 
-    /* nosotros */
+    
 
 
     
@@ -1419,7 +1419,7 @@ iframe {
 
 
 
-    /* blog */
+    
 
     .articulos__blog {
         display: grid;
@@ -1481,7 +1481,7 @@ iframe {
     }
 
 
-/* btn wsapp */ 
+
 
 .float {
     position: fixed;
@@ -1524,7 +1524,7 @@ iframe {
         font-size: 1.5em;
     } 
 
-   /* nosotros */
+   
   
    .el_resto {
     margin: 1.5em 1.5em;
@@ -1639,7 +1639,7 @@ footer {
 } 
 
 
-/* btn wsapp */ 
+
 .float {
     position: fixed;
     width: 40px;
@@ -1665,7 +1665,7 @@ footer {
     margin-top: 10px; }
 
 
-/* contacto page */   
+
 
 .section_contacto__h2 {
     text-align: center;
@@ -1770,7 +1770,6 @@ iframe {
 } 
 
 
-/* blog */
 
 .articulos__blog {
     display: grid;
@@ -1828,7 +1827,7 @@ iframe {
 }
 
 
- /* menu page */
+ 
 
 .sectionMenu {
     padding-top: 5%;
@@ -1908,7 +1907,7 @@ iframe {
    
 } 
 
- /* estilo a elegidos  */
+ 
 
 .elegidos {
     width: 80%;
@@ -1998,7 +1997,7 @@ iframe {
 
 
 
-/* sección newsletter */
+
 
 .container_suscribite {
     padding-top: 5%;

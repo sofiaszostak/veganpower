@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +6,6 @@
   box-sizing: border-box;
 }
 
-/* variables */
 .section__h2, .elegidos .section__h2 {
   font-family: "neonoir", sans-serif;
   font-style: normal;
@@ -18,7 +16,6 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  /* cambiar de color los items del menu */
   color: white;
 }
 
@@ -36,19 +33,16 @@
 
 .nav-link {
   color: white;
-  /* para darle estilo por ahora al "logo" */
 }
 
 .nav-link:hover {
   color: white;
-  /* para evitar el efecto hover en links bootstrap default */
 }
 
 .navbar-nav {
   text-align: center;
 }
 
-/* para centrar los items en menú hamburguesa */
 .header {
   background-color: #ff8800;
 }
@@ -133,7 +127,6 @@
   color: white;
 }
 
-/* sección nuestros valores */
 .valores {
   width: 80%;
   margin: auto;
@@ -183,7 +176,6 @@
   color: #ff8800;
 }
 
-/* estilo a elegidos */
 .elegidos {
   width: 80%;
   margin: auto;
@@ -248,7 +240,6 @@
   margin: 3em 0;
 }
 
-/* sección newsletter */
 .container_suscribite {
   padding-top: 5%;
   background-image: url(imagenes/food.png);
@@ -306,7 +297,6 @@
   padding: 5px 17px;
 }
 
-/* btn wsapp */
 .float {
   position: fixed;
   width: 60px;
@@ -332,7 +322,6 @@
   margin-top: 16px;
 }
 
-/* footer */
 footer {
   background-color: #0a860a;
   height: 33vh;
@@ -369,7 +358,6 @@ footer .footer__logored a:hover {
   color: #ff8800;
 }
 
-/* contacto page */
 .section_contacto__h2 {
   text-align: left;
   margin-left: 0.5em;
@@ -432,7 +420,6 @@ label {
   justify-items: center;
 }
 
-/* blog page */
 .section_blog {
   margin-top: 1.5em;
 }
@@ -481,7 +468,6 @@ label {
   border: #ff8800;
 }
 
-/* menu page */
 .sectionMenu {
   padding-top: 5%;
 }
@@ -540,7 +526,6 @@ label {
   margin-bottom: 6%;
 }
 
-/* nosotros */
 .el_resto {
   margin-top: 5em;
   overflow: hidden;
@@ -630,7 +615,6 @@ label {
   }
 }
 @media only screen and (min-width: 878px) and (max-width: 1380px) {
-  /* para pc */
   .navbar-brand {
     display: none;
   }
@@ -794,7 +778,6 @@ label {
     color: #ff8800;
   }
 
-  /* sección elegidos */
   .elegidos {
     width: 80%;
     margin: auto;
@@ -806,7 +789,6 @@ label {
 
   .container__plato {
     position: relative;
-    /* margin: 3em; */
   }
 
   .image__img {
@@ -863,7 +845,6 @@ label {
     margin: 1em 0;
   }
 
-  /* sección newsletter */
   .container_suscribite {
     padding-top: 5%;
     background-image: url(imagenes/food.png);
@@ -926,7 +907,6 @@ label {
     padding: 5px 17px;
   }
 
-  /* contacto */
   .section_contacto__h2 {
     text-align: center;
     margin: auto;
@@ -1005,7 +985,6 @@ label {
     margin-bottom: 1.5em;
   }
 
-  /* menu */
   .sectionMenu {
     padding-top: 5%;
   }
@@ -1060,13 +1039,11 @@ label {
     display: none;
   }
 
-  /* nosotros */
   .img-fluid {
     display: block;
     margin: auto;
   }
 
-  /* blog */
   .articulos__blog {
     display: grid;
     grid-template-columns: 1fr;
@@ -1111,7 +1088,6 @@ label {
     border: #ff8800;
   }
 
-  /* btn wsapp */
   .float {
     position: fixed;
     width: 40px;
@@ -1146,7 +1122,6 @@ label {
     font-size: 1.5em;
   }
 
-  /* nosotros */
   .el_resto {
     margin: 1.5em 1.5em;
   }
@@ -1239,7 +1214,6 @@ label {
     height: auto;
   }
 
-  /* btn wsapp */
   .float {
     position: fixed;
     width: 40px;
@@ -1265,7 +1239,6 @@ label {
     margin-top: 10px;
   }
 
-  /* contacto page */
   .section_contacto__h2 {
     text-align: center;
     margin-left: 0.5em;
@@ -1344,7 +1317,6 @@ label {
     margin-bottom: 1.5em;
   }
 
-  /* blog */
   .articulos__blog {
     display: grid;
     grid-template-columns: 1fr;
@@ -1388,7 +1360,6 @@ label {
     font-size: 25px;
   }
 
-  /* menu page */
   .sectionMenu {
     padding-top: 5%;
   }
@@ -1444,7 +1415,6 @@ label {
     display: none;
   }
 
-  /* estilo a elegidos  */
   .elegidos {
     width: 80%;
     margin: auto;
@@ -1513,7 +1483,6 @@ label {
     margin: 0.5em 0;
   }
 
-  /* sección newsletter */
   .container_suscribite {
     padding-top: 5%;
     background-image: url(imagenes/food.png);
