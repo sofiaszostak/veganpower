@@ -702,7 +702,6 @@ label {
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 877px) {
-  /* tablet */
   .main__h1 {
     font-size: 3em;
     text-align: center;
@@ -1139,7 +1138,6 @@ label {
   }
 }
 @media only screen and (min-width: 200px) and (max-width: 480px) {
-  /* celular */
   .text-center {
     display: none;
   }
